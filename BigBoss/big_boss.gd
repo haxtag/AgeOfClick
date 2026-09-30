@@ -70,7 +70,7 @@ func show_gameover():
 
 func _on_died():
 	is_dead = true
-	call_deferred("show_victoire")  # ← TON CODE
+	call_deferred("show_victoire")
 
 func show_victoire():
 	var victoire_screen = get_tree().root.find_child("Victoirescreen", true, false)
